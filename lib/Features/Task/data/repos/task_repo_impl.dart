@@ -44,7 +44,7 @@ class TaskRepoImpl implements TaskRepo {
     }
   }
 
-  List<TaskEntitie> getTaskList(Map<String, dynamic> data) {
+   List<TaskEntitie> getTaskList(Map<String, dynamic> data) {
     List<TaskEntitie> Tasks = [];
     for (var TaskMap in data.values) {
       Tasks.add(TaskEntitie(
